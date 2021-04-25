@@ -58,7 +58,7 @@ window.addEventListener('DOMContentLoaded', async function() {
       // Create a variable for the HTML element we're going to add to
       let rideList = document.querySelector(`.rides`)
 
-      // Insert HTML into the products element, using the data from each product
+      // Insert HTML into the rides div, using the data from each ride request
       rideList.insertAdjacentHTML(`beforeend`,`
       <h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
       <i class="fas fa-car-side"></i>

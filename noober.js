@@ -16,13 +16,13 @@ window.addEventListener('DOMContentLoaded', async function() {
     let passengerName = `${json[i].passengerDetails.first} ${json[i].passengerDetails.last}`
     // Set Passenger Phone Number to the phone number and store as a string
     let passengerPhoneNumber = `${json[i].passengerDetails.phoneNumber}`
-    // Set Pickup Location to the Address, City, State and Zip
+    // Set Pickup Address
     let pickupAddress = `${json[i].pickupLocation.address}`
-    // Set Pickup Location to the Address, City, State and Zip
+    // Set Pickup City to the City, State and Zip
     let pickupCity = `${json[i].pickupLocation.city}, ${json[i].pickupLocation.state} ${json[i].pickupLocation.zip}`
-    // Set Dropoff Location to the Address, City, State and Zip
+    // Set Dropoff Address
     let dropoffAddress = `${json[i].dropoffLocation.address}`
-    // Set Dropoff Location to the Address, City, State and Zip
+    // Set Dropoff City to the City, State and Zip
     let dropoffCity = `${json[i].dropoffLocation.city}, ${json[i].dropoffLocation.state} ${json[i].dropoffLocation.zip}`
     // Store number of passengers in memory
     let numberOfPassengers = json[i].numberOfPassengers
